@@ -2,7 +2,7 @@
     "builds": [{
         "src": "DataSiswa/wsgi.py",
         "use": "@vercel/python",
-        "config": { "maxLambdaSize": "15mb", "runtime": "Python 3.10.0" }
+        "config": { "maxLambdaSize": "15mb", "runtime": "Python 3.9" }
     }],
     "routes": [
         {
